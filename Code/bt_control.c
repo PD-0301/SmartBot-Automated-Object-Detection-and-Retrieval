@@ -1,7 +1,4 @@
-/*
-  Blank Simple Project.c
-  http://learn.parallax.com/propeller-c-tutorials 
-*/
+
 #include "simpletools.h"                      // Include simple tools
 #include "fdserial.h" //for bluetooth communication
 #include "servo.h"
