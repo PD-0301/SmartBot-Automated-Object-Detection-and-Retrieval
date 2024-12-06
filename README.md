@@ -14,35 +14,6 @@ This project integrates computer vision and robotics to develop an innovative sy
 - **Real-World Applications**: Demonstrates potential in logistics, automation, and smart manufacturing.
 
 ---
-
-## Components Used
-
-### **1. Propeller Activity Board**
-A microcontroller with 8 parallel-processing cores (cogs), enabling multitasking for robot navigation, gripper control, and communication.
-
-### **2. Parallax Boe-Bot Robot**
-Serves as the mobile platform for the robot, providing a sturdy chassis with mounting points for servos and sensors.
-
-### **3. Raspberry Pi 5**
-Acts as the brain of the system, running the computer vision algorithms and directing the robot's actions.
-
-### **4. Pi Camera 3**
-Captures high-quality images of the arena for object detection and localization.
-
-### **5. Parallax Servo Motors**
-Provides precise control for driving the robot and manipulating objects with the gripper.
-
-### **6. Gripper Mechanism**
-A servo-based gripper for securely picking and placing objects.
-
-### **7. Bluetooth Module**
-Facilitates wireless communication between the Raspberry Pi and the Propeller Activity Board.
-
-### **8. Power Supply**
-A 2-cell LiPo battery powers the mobile robot, while a buck converter regulates voltage for safe operation.
-
----
-
 ## Workflow
 
 1. **Camera Calibration**
@@ -81,6 +52,30 @@ A 2-cell LiPo battery powers the mobile robot, while a buck converter regulates 
 - Ensures smooth trajectory control and precise navigation.
 
 ---
+## Components Used
+
+### **1. Propeller Activity Board**
+A microcontroller with 8 parallel-processing cores (cogs), enabling multitasking for robot navigation, gripper control, and communication.
+
+### **2. Parallax Boe-Bot Robot**
+Serves as the mobile platform for the robot, providing a sturdy chassis with mounting points for servos and sensors.
+
+### **3. Raspberry Pi 5**
+Acts as the brain of the system, running the computer vision algorithms and directing the robot's actions.
+
+### **4. Pi Camera 3**
+Captures high-quality images of the arena for object detection and localization.
+
+### **5. Parallax Servo Motors**
+Provides precise control for driving the robot and manipulating objects with the gripper.
+
+### **6. Gripper Mechanism**
+A servo-based gripper for securely picking and placing objects.
+
+### **7. Bluetooth Module**
+Facilitates wireless communication between the Raspberry Pi and the Propeller Activity Board.
+
+---
 
 ## Results
 
@@ -97,12 +92,6 @@ A 2-cell LiPo battery powers the mobile robot, while a buck converter regulates 
 
 ---
 
-## Future Improvements
-- **Enhanced Algorithms**: Refine object detection for better performance under variable lighting conditions.
-- **Path Optimization**: Implement advanced path-planning algorithms to minimize navigation time.
-- **Scalability**: Expand the system to handle multiple objects and robots simultaneously.
-
----
 
 
 
