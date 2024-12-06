@@ -1,9 +1,10 @@
-# SmartBot-Automated-Object-Detection-and-Retrieval
 # Automated Object Retrieval System Using Color and Shape Recognition
 
 This project integrates computer vision and robotics to develop an innovative system for detecting, retrieving, and relocating objects within a predefined arena. Utilizing a Raspberry Pi-based overhead vision system and a mobile robot equipped with a Parallax Propeller Board, the system identifies objects based on color and shape using OpenCV and executes precise robotic manipulation for object retrieval.
 
 ---
+## Project Demo
+![Project Demo](Demo.gif)
 
 ## Key Features
 - **Overhead Vision System**: Captures and processes images of the arena for object and robot localization.
@@ -103,8 +104,7 @@ A 2-cell LiPo battery powers the mobile robot, while a buck converter regulates 
 
 ---
 
-## Project Demo
-![Project Demo](Projectdemo.gif)
+
 
 
 ---
